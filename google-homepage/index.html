@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+    <meta charset="utf8">
+    <title>nowa karta</title>
+    <style>
+        header{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            margin: 10px;
+            display: flex;
+            justify-content: flex-end;
+            padding: 8px;
+            }
+
+        a{
+            margin: 5px 10px 10px 5px;
+        }
+
+        a:link{
+            color: #5f6368;
+            text-decoration: none;
+        }
+        a:visited{
+            color: #5f6368;
+            text-decoration: none;
+        }
+        
+
+        a:hover{
+            text-decoration: underline;
+            text-decoration-color: #5f6368;
+        }
+
+        #logo{
+            margin: 0;
+            margin-top: 50px;
+            font-size: 90px;
+            font-family: 'Source Sans Pro', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+  
+  
+        }
+
+        #pole-wyszukiwania{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40px;
+            border-color: #5f6368;
+            
+        }
+        #wyszukiwanie{
+            height: 30px;
+            width: 500px;
+            border-radius: 30px;
+        }
+        #menu{
+            display: inline-block;
+        }
+
+        .grafika-gmail{
+            margin-top: 40px;
+        }
+        input{
+            box-shadow: 0px 0px 7px rgba(50, 50, 50, 0.7);
+        }
+        
+      
+
+    </style>
+</head>
+<body>
+    <header>
+            <div class="menu" id="grafika-gmail" style="
+            margin-top: 5px;
+            margin-right: 10px;"><a href="#">Grafika</a> <a href="#">Gmail</a></div>
+            <div class="menu" id="menu9dots"><a href="#"><img src="menu9dots.png" alt="menu"></a></div>
+    </header>
+    <section>
+        <div id="logo"><span style="color: blue;">G</span><span style="color: red;">o</span><span style="color: darkorange;">o</span><span  style="color: blue;">g</span><span style="color: green;">l</span><span  style="color: red;">e</span></div>
+        <div id="pole-wyszukiwania">
+            <form>
+                <input  placeholder="Wyszukaj w Google lub wpisz URL" type="text" name="wyszukiwanie" id="wyszukiwanie">
+            </form>
+        </div>
+    </section>
+
+
+</body>
+</html>
